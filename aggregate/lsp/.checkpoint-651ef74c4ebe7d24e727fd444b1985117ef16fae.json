@@ -1,0 +1,32 @@
+{
+  "commit_sha": "651ef74c4ebe7d24e727fd444b1985117ef16fae",
+  "completed_files": [
+    "numpy/core/tests/test_datetime.py",
+    "numpy/core/tests/test_numeric.py",
+    "numpy/f2py/rules.py",
+    "numpy/lib/financial.py",
+    "numpy/lib/tests/test_io.py",
+    "numpy/testing/print_coercion_tables.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/numpy/numpy/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz",
+    "call_sites": 82502,
+    "import_statements": 2680,
+    "call_targets_resolved": 242,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 2977,
+    "extends_clauses": 911,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 3846,
+    "import_symbols_denormalized": 2769,
+    "extends_class_denormalized": 911,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14410
+}
