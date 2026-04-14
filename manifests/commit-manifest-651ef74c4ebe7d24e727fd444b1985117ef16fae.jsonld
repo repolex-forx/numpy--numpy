@@ -17,7 +17,7 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "commit",
       "repolex:graphFilePath": "commit/commit.nq.gz",
-      "repolex:graphFileSize": 26636474
+      "repolex:graphFileSize": 26637951
     },
     {
       "@type": "repolex:GraphFile",
@@ -29,13 +29,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 77009
+      "repolex:graphFileSize": 76973
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "issue",
       "repolex:graphFilePath": "issue/issue.nq.gz",
-      "repolex:graphFileSize": 10284140
+      "repolex:graphFileSize": 10287576
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-04-14T14:43:30.782575+00:00",
+  "repolex:parsedAt": "2026-04-14T15:06:54.867997+00:00",
   "repolex:parserVersion": "0.1.0",
   "git:tagName": "with_maskna"
 }
