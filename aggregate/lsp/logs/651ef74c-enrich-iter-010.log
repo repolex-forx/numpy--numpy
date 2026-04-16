@@ -1,0 +1,55 @@
+[2026-04-16T05:08:43Z] === ENRICH ITERATION 10 START | repo=numpy/numpy sha=651ef74c ===
+[2026-04-16T05:08:43Z] [iter=10] PHASE START: enrich repo=numpy/numpy sha=651ef74c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/651ef74c-enrich-iter-010.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz
+[2026-04-16T05:08:43Z] [iter=10] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-16T05:10:53Z] [iter=10] AST store loaded triples=11974710 load_secs=125 mem_mb=1018 MB
+[2026-04-16T05:10:53Z] [iter=10] Step 2: Finding LSP targets mem_mb=1018 MB
+[2026-04-16T05:11:10Z] [iter=10] LSP targets found call_sites=82502 imports=2680 extends=911 implements=0 secs=17
+[2026-04-16T05:11:16Z] [iter=10] Loaded checkpoint partial graph triples=151009
+[2026-04-16T05:11:29Z] [iter=10] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1018 MB
+[2026-04-16T05:12:45Z] [iter=10] Position index built positions=764731 nodes_with_types=972200 secs=76 mem_mb=2175 MB
+[2026-04-16T05:12:45Z] [iter=10] Step 3: Starting LSP resolution mem_mb=2175 MB already_completed_types=[] already_completed_files=107
+[2026-04-16T05:12:45Z] [iter=10] Resolving target type target_type=call_site count=82502
+[2026-04-16T05:12:46Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=0 resolved=0 errors=0 current=numpy/lib/tests/test_recfunctions.py
+[2026-04-16T05:34:01Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=25.3 files_done=1 resolved=2 errors=274 current=numpy/core/tests/test_function_base.py
+[2026-04-16T05:34:58Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=26.2 files_done=2 resolved=6 errors=286 current=doc/sphinxext/docscrape.py
+[2026-04-16T05:44:24Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=35.7 files_done=3 resolved=51 errors=406 current=numpy/distutils/ccompiler.py
+[2026-04-16T05:51:40Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=42.9 files_done=4 resolved=116 errors=499 current=numpy/lib/utils.py
+[2026-04-16T05:58:13Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=5 resolved=261 errors=583 current=numpy/lib/tests/test_arrayterator.py
+[2026-04-16T06:01:50Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=53.1 files_done=7 resolved=275 errors=629 current=numpy/fft/tests/test_helper.py
+[2026-04-16T06:03:19Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=54.6 files_done=8 resolved=275 errors=648 current=numpy/core/tests/test_dtype.py
+[2026-04-16T06:13:49Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=65.1 files_done=9 resolved=302 errors=783 current=numpy/random/mtrand/generate_mtrand_c.py
+[2026-04-16T06:14:26Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=65.7 files_done=10 resolved=311 errors=791 current=numpy/testing/utils.py
+[2026-04-16T06:27:07Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=78.4 files_done=11 resolved=431 errors=954 current=numpy/core/code_generators/generate_numpy_api.py
+[2026-04-16T06:29:22Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=80.6 files_done=12 resolved=442 errors=983 current=numpy/core/arrayprint.py
+[2026-04-16T06:34:48Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=86.1 files_done=13 resolved=531 errors=1052 current=numpy/f2py/tests/test_return_real.py
+[2026-04-16T06:36:50Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=88.1 files_done=14 resolved=552 errors=1078 current=numpy/lib/tests/test_regression.py
+[2026-04-16T06:43:09Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=94.4 files_done=15 resolved=564 errors=1159 current=numpy/polynomial/hermite.py
+[2026-04-16T06:52:37Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=103.9 files_done=16 resolved=657 errors=1281 current=numpy/linalg/lapack_lite/clapack_scrub.py
+[2026-04-16T06:57:44Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=109.0 files_done=17 resolved=673 errors=1347 current=numpy/core/tests/test_getlimits.py
+[2026-04-16T06:59:23Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=110.7 files_done=18 resolved=687 errors=1368 current=numpy/ma/tests/test_regression.py
+[2026-04-16T07:00:19Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=111.6 files_done=19 resolved=688 errors=1380 current=numpy/f2py/tests/test_return_complex.py
+[2026-04-16T07:02:11Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=113.5 files_done=20 resolved=710 errors=1404 current=numpy/fft/fftpack.py
+[2026-04-16T07:03:59Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=115.3 files_done=21 resolved=731 errors=1427 current=doc/sphinxext/compiler_unparse.py
+[2026-04-16T07:20:05Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=131.4 files_done=22 resolved=767 errors=1634 current=tools/py3tool.py
+[2026-04-16T07:22:39Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=133.9 files_done=23 resolved=836 errors=1667 current=numpy/matrixlib/tests/test_regression.py
+[2026-04-16T07:23:49Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=135.1 files_done=24 resolved=842 errors=1682 current=numpy/core/tests/test_na.py
+[2026-04-16T07:30:03Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=141.3 files_done=25 resolved=883 errors=1762 current=numpy/distutils/command/build_py.py
+[2026-04-16T07:59:05Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=170.4 files_done=27 resolved=918 errors=2134 current=numpy/linalg/lapack_lite/make_lite.py
+[2026-04-16T08:03:30Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=174.8 files_done=28 resolved=937 errors=2191 current=doc/sphinxext/linkcode.py
+[2026-04-16T08:04:12Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=175.5 files_done=29 resolved=943 errors=2200 current=numpy/f2py/cb_rules.py
+[2026-04-16T08:10:34Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=181.8 files_done=30 resolved=950 errors=2282 current=doc/sphinxext/tests/test_docscrape.py
+[2026-04-16T08:13:23Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=184.7 files_done=31 resolved=993 errors=2318 current=numpy/oldnumeric/alter_code1.py
+[2026-04-16T08:17:35Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=188.9 files_done=32 resolved=1023 errors=2372 current=numpy/f2py/use_rules.py
+[2026-04-16T08:19:13Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=190.5 files_done=33 resolved=1023 errors=2393 current=numpy/core/records.py
+[2026-04-16T08:27:14Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=198.5 files_done=34 resolved=1099 errors=2496 current=numpy/f2py/tests/test_size.py
+[2026-04-16T08:27:53Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=199.2 files_done=35 resolved=1101 errors=2504 current=numpy/distutils/command/build_clib.py
+[2026-04-16T08:33:14Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=204.5 files_done=36 resolved=1120 errors=2573 current=numpy/lib/arraypad.py
+[2026-04-16T08:36:59Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=208.3 files_done=37 resolved=1158 errors=2621 current=numpy/lib/arrayterator.py
+[2026-04-16T08:43:25Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=214.7 files_done=39 resolved=1187 errors=2704 current=numpy/core/_methods.py
+[2026-04-16T08:48:24Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=219.7 files_done=41 resolved=1235 errors=2768 current=numpy/distutils/command/build_src.py
+[2026-04-16T09:02:58Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=234.2 files_done=42 resolved=1361 errors=2955 current=numpy/oldnumeric/precision.py
+[2026-04-16T09:07:00Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=238.3 files_done=43 resolved=1362 errors=3007 current=numpy/lib/format.py
+[2026-04-16T09:08:51Z] [iter=10] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=150 new_files_this_iter=43 mem_mb=2227 MB
+[2026-04-16T09:08:51Z] [iter=10] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz triples=173411
+[2026-04-16T09:08:55Z] [iter=10] Checkpoint written, exiting with code 7
+[2026-04-16T09:08:55Z] [iter=10] PHASE END: enrich (checkpointed) elapsed_s=14408 elapsed_min=240.1 files_completed=150
