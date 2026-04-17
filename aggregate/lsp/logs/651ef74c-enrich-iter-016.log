@@ -1,0 +1,43 @@
+[2026-04-17T05:44:53Z] === ENRICH ITERATION 16 START | repo=numpy/numpy sha=651ef74c ===
+[2026-04-17T05:44:53Z] [iter=16] PHASE START: enrich repo=numpy/numpy sha=651ef74c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/651ef74c-enrich-iter-016.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz
+[2026-04-17T05:44:53Z] [iter=16] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-17T05:46:58Z] [iter=16] AST store loaded triples=11974710 load_secs=121 mem_mb=1026 MB
+[2026-04-17T05:46:58Z] [iter=16] Step 2: Finding LSP targets mem_mb=1026 MB
+[2026-04-17T05:47:16Z] [iter=16] LSP targets found call_sites=82502 imports=2680 extends=911 implements=0 secs=18
+[2026-04-17T05:47:27Z] [iter=16] Loaded checkpoint partial graph triples=244358
+[2026-04-17T05:47:41Z] [iter=16] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1026 MB
+[2026-04-17T05:48:50Z] [iter=16] Position index built positions=764731 nodes_with_types=972200 secs=69 mem_mb=2350 MB
+[2026-04-17T05:48:50Z] [iter=16] Step 3: Starting LSP resolution mem_mb=2350 MB already_completed_types=[] already_completed_files=408
+[2026-04-17T05:48:50Z] [iter=16] Resolving target type target_type=call_site count=82502
+[2026-04-17T05:48:54Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=0 resolved=0 errors=0 current=numpy/core/src/multiarray/multiarraymodule.c
+[2026-04-17T05:59:13Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=1 resolved=0 errors=131 current=numpy/lib/src/_compiled_base.c
+[2026-04-17T06:01:07Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=2 resolved=6 errors=155 current=numpy/core/src/multiarray/reduction.c
+[2026-04-17T06:02:23Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=17.5 files_done=3 resolved=6 errors=171 current=numpy/core/src/multiarray/flagsobject.c
+[2026-04-17T06:07:15Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=22.4 files_done=4 resolved=6 errors=232 current=numpy/core/src/multiarray/mapping.c
+[2026-04-17T06:14:47Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=5 resolved=9 errors=327 current=numpy/core/src/multiarray/methods.c
+[2026-04-17T06:23:06Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=38.2 files_done=6 resolved=11 errors=432 current=numpy/core/src/multiarray/convert_datatype.c
+[2026-04-17T06:25:52Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=41.0 files_done=7 resolved=18 errors=467 current=numpy/core/include/numpy/fenv/fenv.h
+[2026-04-17T06:27:46Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=42.9 files_done=8 resolved=18 errors=491 current=numpy/core/src/multiarray/conversion_utils.c
+[2026-04-17T06:32:50Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=48.0 files_done=9 resolved=18 errors=555 current=numpy/core/src/multiarray/array_assign_scalar.c
+[2026-04-17T06:35:18Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=50.4 files_done=10 resolved=18 errors=586 current=numpy/core/src/multiarray/ctors.c
+[2026-04-17T06:43:14Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=58.4 files_done=11 resolved=20 errors=686 current=numpy/core/src/multiarray/descriptor.c
+[2026-04-17T06:54:51Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=70.0 files_done=12 resolved=29 errors=833 current=doc/numpybook/comparison/pyrex/filter.c
+[2026-04-17T06:55:29Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=70.6 files_done=13 resolved=29 errors=841 current=doc/pyrex/numpyx.c
+[2026-04-17T06:58:26Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=73.6 files_done=14 resolved=29 errors=878 current=numpy/core/src/multiarray/getset.c
+[2026-04-17T07:03:44Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=78.9 files_done=15 resolved=29 errors=945 current=numpy/core/src/multiarray/array_assign_array.c
+[2026-04-17T07:08:20Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=83.5 files_done=16 resolved=29 errors=1003 current=numpy/linalg/lapack_litemodule.c
+[2026-04-17T07:27:39Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=102.8 files_done=17 resolved=29 errors=1247 current=numpy/core/src/multiarray/dtype_transfer.c
+[2026-04-17T07:42:45Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=117.9 files_done=18 resolved=49 errors=1438 current=numpy/core/src/multiarray/item_selection.c
+[2026-04-17T07:47:11Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=122.3 files_done=19 resolved=49 errors=1494 current=numpy/random/mtrand/mtrand_py_helper.h
+[2026-04-17T07:57:06Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=132.2 files_done=21 resolved=49 errors=1619 current=numpy/numarray/include/numpy/nummacro.h
+[2026-04-17T08:01:16Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=136.4 files_done=22 resolved=49 errors=1671 current=numpy/f2py/doc/multiarray/array_from_pyobj.c
+[2026-04-17T08:02:42Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=137.8 files_done=23 resolved=49 errors=1689 current=numpy/core/src/multiarray/nditer_api.c
+[2026-04-17T08:51:01Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=186.1 files_done=24 resolved=49 errors=2303 current=numpy/f2py/src/fortranobject.c
+[2026-04-17T08:56:48Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=191.9 files_done=25 resolved=72 errors=2376 current=numpy/core/src/multiarray/datetime_busdaycal.c
+[2026-04-17T08:57:45Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=192.9 files_done=26 resolved=72 errors=2388 current=numpy/core/src/multiarray/na_object.c
+[2026-04-17T08:59:49Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=194.9 files_done=27 resolved=72 errors=2414 current=numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c
+[2026-04-17T09:27:07Z] [iter=16] HEARTBEAT target_type=call_site elapsed_min=222.2 files_done=29 resolved=73 errors=2756 current=numpy/core/src/multiarray/nditer_constr.c
+[2026-04-17T09:44:55Z] [iter=16] CHECKPOINT TRIGGERED elapsed_min=240.0 files_completed=437 new_files_this_iter=29 mem_mb=2350 MB
+[2026-04-17T09:44:55Z] [iter=16] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz triples=262522
+[2026-04-17T09:45:00Z] [iter=16] Checkpoint written, exiting with code 7
+[2026-04-17T09:45:00Z] [iter=16] PHASE END: enrich (checkpointed) elapsed_s=14402 elapsed_min=240.0 files_completed=437
