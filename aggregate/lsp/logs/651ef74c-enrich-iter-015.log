@@ -1,0 +1,21 @@
+[2026-04-17T01:39:25Z] === ENRICH ITERATION 15 START | repo=numpy/numpy sha=651ef74c ===
+[2026-04-17T01:39:25Z] [iter=15] PHASE START: enrich repo=numpy/numpy sha=651ef74c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/651ef74c-enrich-iter-015.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz
+[2026-04-17T01:39:25Z] [iter=15] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-17T01:41:41Z] [iter=15] AST store loaded triples=11974710 load_secs=131 mem_mb=1021 MB
+[2026-04-17T01:41:41Z] [iter=15] Step 2: Finding LSP targets mem_mb=1021 MB
+[2026-04-17T01:41:59Z] [iter=15] LSP targets found call_sites=82502 imports=2680 extends=911 implements=0 secs=19
+[2026-04-17T01:42:10Z] [iter=15] Loaded checkpoint partial graph triples=240629
+[2026-04-17T01:42:24Z] [iter=15] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1089 MB
+[2026-04-17T01:43:46Z] [iter=15] Position index built positions=764731 nodes_with_types=972200 secs=82 mem_mb=2489 MB
+[2026-04-17T01:43:46Z] [iter=15] Step 3: Starting LSP resolution mem_mb=2489 MB already_completed_types=[] already_completed_files=403
+[2026-04-17T01:43:46Z] [iter=15] Resolving target type target_type=call_site count=82502
+[2026-04-17T01:43:50Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=0 resolved=0 errors=0 current=numpy/linalg/dlapack_lite.c
+[2026-04-17T05:14:52Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=215.5 files_done=1 resolved=0 errors=2619 current=numpy/core/src/multiarray/scalarapi.c
+[2026-04-17T05:19:29Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=220.1 files_done=2 resolved=1 errors=2676 current=numpy/core/src/multiarray/number.c
+[2026-04-17T05:26:36Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=227.2 files_done=3 resolved=3 errors=2764 current=numpy/core/blasdot/_dotblas.c
+[2026-04-17T05:28:37Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=229.2 files_done=4 resolved=3 errors=2789 current=doc/numpybook/comparison/f2py/filtermodule.c
+[2026-04-17T05:30:04Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=230.7 files_done=5 resolved=4 errors=2807 current=numpy/core/src/multiarray/multiarraymodule.c
+[2026-04-17T05:39:40Z] [iter=15] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=408 new_files_this_iter=5 mem_mb=2501 MB
+[2026-04-17T05:39:40Z] [iter=15] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/651ef74c4ebe7d24e727fd444b1985117ef16fae.nq.gz triples=244358
+[2026-04-17T05:39:44Z] [iter=15] Checkpoint written, exiting with code 7
+[2026-04-17T05:39:44Z] [iter=15] PHASE END: enrich (checkpointed) elapsed_s=14415 elapsed_min=240.2 files_completed=408
